@@ -13,6 +13,8 @@
 		7E5B9C592B45F33100C48DFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B9C582B45F33100C48DFE /* Preview Assets.xcassets */; };
 		7E5B9C642B45F33100C48DFE /* idleclickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B9C632B45F33100C48DFE /* idleclickerTests.swift */; };
 		7E5B9C6F2B45F33100C48DFE /* idleclickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B9C6E2B45F33100C48DFE /* idleclickerUITests.swift */; };
+		7E5B9C802B45F35800C48DFE /* PointGeneratorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B9C7F2B45F35800C48DFE /* PointGeneratorModel.swift */; };
+		7E5B9C852B45F39F00C48DFE /* GameStateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B9C842B45F39F00C48DFE /* GameStateViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		7E5B9C6A2B45F33100C48DFE /* idleclickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idleclickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5B9C6E2B45F33100C48DFE /* idleclickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idleclickerUITests.swift; sourceTree = "<group>"; };
 		7E5B9C702B45F33100C48DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5B9C7F2B45F35800C48DFE /* PointGeneratorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointGeneratorModel.swift; sourceTree = "<group>"; };
+		7E5B9C842B45F39F00C48DFE /* GameStateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				7E5B9C552B45F33100C48DFE /* Assets.xcassets */,
 				7E5B9C5A2B45F33100C48DFE /* Info.plist */,
 				7E5B9C572B45F33100C48DFE /* Preview Content */,
+				7E5B9C7F2B45F35800C48DFE /* PointGeneratorModel.swift */,
+				7E5B9C842B45F39F00C48DFE /* GameStateViewModel.swift */,
 			);
 			path = idleclicker;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E5B9C542B45F33000C48DFE /* ContentView.swift in Sources */,
+				7E5B9C802B45F35800C48DFE /* PointGeneratorModel.swift in Sources */,
 				7E5B9C522B45F33000C48DFE /* idleclickerApp.swift in Sources */,
+				7E5B9C852B45F39F00C48DFE /* GameStateViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
