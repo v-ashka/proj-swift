@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3F58B2DD2B4D9D3700ECCDAD /* FlyingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F58B2DC2B4D9D3700ECCDAD /* FlyingNumber.swift */; };
-		7E3D18082B51B567003BE0F2 /* GameLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D18072B51B567003BE0F2 /* GameLevelModel.swift */; };
 		7E5B9C522B45F33000C48DFE /* idleclickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B9C512B45F33000C48DFE /* idleclickerApp.swift */; };
 		7E5B9C542B45F33000C48DFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B9C532B45F33000C48DFE /* ContentView.swift */; };
 		7E5B9C562B45F33100C48DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B9C552B45F33100C48DFE /* Assets.xcassets */; };
 		7E5B9C592B45F33100C48DFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B9C582B45F33100C48DFE /* Preview Assets.xcassets */; };
 		7E5B9C642B45F33100C48DFE /* idleclickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B9C632B45F33100C48DFE /* idleclickerTests.swift */; };
 		7E5B9C6F2B45F33100C48DFE /* idleclickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B9C6E2B45F33100C48DFE /* idleclickerUITests.swift */; };
-		7E5B9C802B45F35800C48DFE /* PointGeneratorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B9C7F2B45F35800C48DFE /* PointGeneratorModel.swift */; };
+		7E5B9C802B45F35800C48DFE /* GameStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B9C7F2B45F35800C48DFE /* GameStateModel.swift */; };
 		7E5B9C852B45F39F00C48DFE /* GameStateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B9C842B45F39F00C48DFE /* GameStateViewModel.swift */; };
+		7E9425262B55D204007E6326 /* UpgradeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9425252B55D204007E6326 /* UpgradeListView.swift */; };
+		7E94252B2B55D217007E6326 /* ResetSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E94252A2B55D217007E6326 /* ResetSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		3F58B2DC2B4D9D3700ECCDAD /* FlyingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingNumber.swift; sourceTree = "<group>"; };
-		7E3D18072B51B567003BE0F2 /* GameLevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelModel.swift; sourceTree = "<group>"; };
 		7E5B9C4E2B45F33000C48DFE /* idleclicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idleclicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5B9C512B45F33000C48DFE /* idleclickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idleclickerApp.swift; sourceTree = "<group>"; };
 		7E5B9C532B45F33000C48DFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +51,10 @@
 		7E5B9C6A2B45F33100C48DFE /* idleclickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idleclickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5B9C6E2B45F33100C48DFE /* idleclickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idleclickerUITests.swift; sourceTree = "<group>"; };
 		7E5B9C702B45F33100C48DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E5B9C7F2B45F35800C48DFE /* PointGeneratorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointGeneratorModel.swift; sourceTree = "<group>"; };
+		7E5B9C7F2B45F35800C48DFE /* GameStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateModel.swift; sourceTree = "<group>"; };
 		7E5B9C842B45F39F00C48DFE /* GameStateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateViewModel.swift; sourceTree = "<group>"; };
+		7E9425252B55D204007E6326 /* UpgradeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeListView.swift; sourceTree = "<group>"; };
+		7E94252A2B55D217007E6326 /* ResetSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +105,16 @@
 		7E5B9C502B45F33000C48DFE /* idleclicker */ = {
 			isa = PBXGroup;
 			children = (
+				7E9425252B55D204007E6326 /* UpgradeListView.swift */,
 				7E5B9C512B45F33000C48DFE /* idleclickerApp.swift */,
 				7E5B9C532B45F33000C48DFE /* ContentView.swift */,
 				7E5B9C552B45F33100C48DFE /* Assets.xcassets */,
 				7E5B9C5A2B45F33100C48DFE /* Info.plist */,
 				7E5B9C572B45F33100C48DFE /* Preview Content */,
-				7E5B9C7F2B45F35800C48DFE /* PointGeneratorModel.swift */,
+				7E5B9C7F2B45F35800C48DFE /* GameStateModel.swift */,
 				7E5B9C842B45F39F00C48DFE /* GameStateViewModel.swift */,
-				7E3D18072B51B567003BE0F2 /* GameLevelModel.swift */,
 				3F58B2DC2B4D9D3700ECCDAD /* FlyingNumber.swift */,
+				7E94252A2B55D217007E6326 /* ResetSettingsView.swift */,
 			);
 			path = idleclicker;
 			sourceTree = "<group>";
@@ -271,12 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3D18082B51B567003BE0F2 /* GameLevelModel.swift in Sources */,
 				7E5B9C542B45F33000C48DFE /* ContentView.swift in Sources */,
-				7E5B9C802B45F35800C48DFE /* PointGeneratorModel.swift in Sources */,
+				7E5B9C802B45F35800C48DFE /* GameStateModel.swift in Sources */,
 				7E5B9C522B45F33000C48DFE /* idleclickerApp.swift in Sources */,
 				7E5B9C852B45F39F00C48DFE /* GameStateViewModel.swift in Sources */,
 				3F58B2DD2B4D9D3700ECCDAD /* FlyingNumber.swift in Sources */,
+				7E94252B2B55D217007E6326 /* ResetSettingsView.swift in Sources */,
+				7E9425262B55D204007E6326 /* UpgradeListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

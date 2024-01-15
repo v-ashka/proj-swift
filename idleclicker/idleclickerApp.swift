@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct idleclickerApp: App {
+    @StateObject var viewModel = GameStateViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: viewModel)
         }
     }
 }
